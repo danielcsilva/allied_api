@@ -1,4 +1,10 @@
 {
+    "type": "project",
+    "autoload": {
+    "psr-4": {
+        "App\\": "App/"
+    }
+    },
     "name": "danielcosta/swapi_allied",
     "description": "Projeto criado para avaliação",
     "authors": [
@@ -7,5 +13,7 @@
             "email": "daniel.costa.silva@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "monolog/monolog": "1.25.1"
+    }
 }
