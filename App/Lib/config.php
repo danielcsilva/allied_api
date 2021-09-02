@@ -1,7 +1,7 @@
 <?php namespace App\Lib;
 
-class Config{
-
+class Config
+{
     private static $config;
 
     public static function get($key, $default = null)
@@ -12,5 +12,4 @@ class Config{
 
         return !empty(self::$config[$key]) ? self::$config[$key] : $default;
     }
-
 }
