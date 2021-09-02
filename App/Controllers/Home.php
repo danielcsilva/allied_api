@@ -1,11 +1,8 @@
-<?php 
-namespace App\Controller;
+<?php namespace App\Controllers;
 
-class Home {
-
+Class Home
+{
     public function indexAction(){
         echo "Bem vindo!";
     }
-
-
 }

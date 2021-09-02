@@ -1,12 +1,13 @@
 {
-    "type": "project",
-    "autoload": {
-    "psr-4": {
-        "App\\": "App/"
-    }
-    },
     "name": "danielcosta/swapi_allied",
     "description": "Projeto criado para avaliação",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/"
+        }
+    },
+    "license": "MIT",
     "authors": [
         {
             "name": "Daniel Costa",
