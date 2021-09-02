@@ -1,0 +1,11 @@
+{
+    "name": "danielcosta/swapi_allied",
+    "description": "Projeto criado para avaliação",
+    "authors": [
+        {
+            "name": "Daniel Costa",
+            "email": "daniel.costa.silva@gmail.com"
+        }
+    ],
+    "require": {}
+}
